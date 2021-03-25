@@ -18,10 +18,10 @@ import requests
 import praw
 import time
 
-reddit = praw.Reddit(client_id="YOUR_CLIENT_ID",
-                    client_secret="YOUR_CLIENT_SECRET",
+reddit = praw.Reddit(client_id="qa6M3klqKsXh8A",
+                    client_secret="7gafRr64o5JN0LDX4Bg_9-zvn0yuHg",
                     redirect_uri="http://localhost:8080",
-                    user_agent="YOUR_USER_AGENT")
+                    user_agent="asudatascience")
 print(reddit.auth.url(["identity"], "...", "permanent"))
 
 
